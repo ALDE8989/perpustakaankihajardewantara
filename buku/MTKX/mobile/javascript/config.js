@@ -1,0 +1,180 @@
+﻿	var aliasConfig = {
+appName : ["", "", ""],
+totalPageCount : [],
+largePageWidth : [],
+largePageHeight : [],
+normalPath : [],
+largePath : [],
+thumbPath : [],
+
+ToolBarsSettings:[],
+TitleBar:[],
+appLogoIcon:["appLogoIcon"],
+appLogoLinkURL:["appLogoLinkURL"],
+bookTitle : [],
+bookDescription : [],
+ButtonsBar : [],
+ShareButton : [],
+ShareButtonVisible : ["socialShareButtonVisible"],
+ThumbnailsButton : [],
+ThumbnailsButtonVisible : ["enableThumbnail"],
+ZoomButton : [],
+ZoomButtonVisible : ["enableZoomIn"],
+FlashDisplaySettings : [],
+MainBgConfig : [],
+bgBeginColor : ["bgBeginColor"],
+bgEndColor : ["bgEndColor"],
+bgMRotation : ["bgMRotation"],
+backGroundImgURL : ["mainbgImgUrl","innerMainbgImgUrl"],
+pageBackgroundColor : ["pageBackgroundColor"],
+flipshortcutbutton : [],
+BookMargins : [],
+topMargin : [],
+bottomMargin : [],
+leftMargin : [],
+rightMargin : [],
+HTMLControlSettings : [],
+linkconfig : [],
+LinkDownColor : ["linkOverColor"],
+LinkAlpha : ["linkOverColorAlpha"],
+OpenWindow : ["linkOpenedWindow"],
+searchColor : [],
+searchAlpha : [],
+SearchButtonVisible : ["searchButtonVisible"],
+
+productName : [],
+homePage : [],
+enableAutoPlay : ["autoPlayAutoStart"],
+autoPlayDuration : ["autoPlayDuration"],
+autoPlayLoopCount : ["autoPlayLoopCount"],
+BookMarkButtonVisible : [],
+googleAnalyticsID : ["googleAnalyticsID"],
+OriginPageIndex : [],	
+HardPageEnable : ["isHardCover"],	
+UIBaseURL : [],	
+RightToLeft: ["isRightToLeft"],	
+
+LeftShadowWidth : ["leftPageShadowWidth"],	
+LeftShadowAlpha : ["pageShadowAlpha"],
+RightShadowWidth : ["rightPageShadowWidth"],
+RightShadowAlpha : ["pageShadowAlpha"],
+ShortcutButtonHeight : [],	
+ShortcutButtonWidth : [],
+AutoPlayButtonVisible : ["enableAutoPlay"],	
+DownloadButtonVisible : ["enableDownload"],	
+DownloadURL : ["downloadURL"],
+HomeButtonVisible :["homeButtonVisible"],
+HomeURL:['btnHomeURL'],
+BackgroundSoundURL:['bacgroundSoundURL'],
+//TableOfContentButtonVisible:["BookMarkButtonVisible"],
+PrintButtonVisible:["enablePrint"],
+toolbarColor:["mainColor","barColor"],
+loadingBackground:["mainColor","barColor"],
+BackgroundSoundButtonVisible:["enableFlipSound"],
+FlipSound:["enableFlipSound"],
+MiniStyle:["userSmallMode"],
+retainBookCenter:["moveFlipBookToCenter"],
+totalPagesCaption:["totalPageNumberCaptionStr"],
+pageNumberCaption:["pageIndexCaptionStrs"]
+};
+var aliasLanguage={
+frmPrintbtn:["frmPrintCaption"],
+frmPrintall : ["frmPrintPrintAll"],
+frmPrintcurrent : ["frmPrintPrintCurrentPage"],
+frmPrintRange : ["frmPrintPrintRange"],
+frmPrintexample : ["frmPrintExampleCaption"],
+btnLanguage:["btnSwicthLanguage"],
+btnTableOfContent:["btnBookMark"]
+}
+;
+	var bookConfig = {
+	appName:'flippdf',
+	totalPageCount : 0,
+	largePageWidth : 1080,
+	largePageHeight : 1440,
+	normalPath : "files/page/",
+	largePath : "files/large/",
+	thumbPath : "files/thumb/",
+	
+	ToolBarsSettings:"",
+	TitleBar:"",
+	appLogoLinkURL:"",
+	bookTitle:"FLIPBUILDER",
+	bookDescription:"",
+	ButtonsBar:"",
+	ShareButton:"",
+	
+	ThumbnailsButton:"",
+	ThumbnailsButtonVisible:"Show",
+	ZoomButton:"",
+	ZoomButtonVisible:"Yes",
+	FlashDisplaySettings:"",
+	MainBgConfig:"",
+	bgBeginColor:"#cccccc",
+	bgEndColor:"#eeeeee",
+	bgMRotation:45,
+	pageBackgroundColor:"#FFFFFF",
+	flipshortcutbutton:"Show",
+	BookMargins:"",
+	topMargin:10,
+	bottomMargin:10,
+	leftMargin:10,
+	rightMargin:10,
+	HTMLControlSettings:"",
+	linkconfig:"",
+	LinkDownColor:"#808080",
+	LinkAlpha:0.5,
+	OpenWindow:"_Blank",
+
+	BookMarkButtonVisible:'true',
+	productName : 'Demo created by Flip PDF',
+	homePage : 'http://www.flipbuilder.com/',
+	isFlipPdf : "true",
+	TableOfContentButtonVisible:"true",
+	searchTextJS:'javascript/search_config.js',
+	searchPositionJS:undefined
+};
+	
+	
+	;bookConfig.BookTemplateName="metro";bookConfig.loadingCaptionColor="#DDDDDD";bookConfig.loadingBackground="#323232";bookConfig.appLogoIcon="files/mobile-ext/appLogoIcon.png";bookConfig.appLogoOpenWindow="Blank";bookConfig.logoHeight="40";bookConfig.logoPadding="0";bookConfig.logoTop="0";bookConfig.toolbarColor="#000000";bookConfig.iconColor="#ECF5FB";bookConfig.pageNumColor="#000000";bookConfig.iconFontColor="#C6C6C6";bookConfig.toolbarAlwaysShow="No";bookConfig.formFontColor="#FFFFFF";bookConfig.formBackgroundColor="#27181A";bookConfig.ToolBarAlpha="1";bookConfig.CurlingPageCorner="Yes";bookConfig.showBookInstructionOnStart="false";bookConfig.InstructionsButtonVisible="Show";bookConfig.showInstructionOnStart="No";bookConfig.showGotoButtonsAtFirst="No";bookConfig.QRCode="Hide";bookConfig.HomeButtonVisible="Hide";bookConfig.HomeURL="%first page%";bookConfig.aboutButtonVisible="Hide";bookConfig.enablePageBack="Show";bookConfig.ShareButtonVisible="Show";shareObj = [];bookConfig.isInsertFrameLinkEnable="Show";bookConfig.addCurrentPage="No";bookConfig.EmailButtonVisible="Show";bookConfig.btnShareWithEmailBody="{link}";bookConfig.ThumbnailsButtonVisible="Show";bookConfig.thumbnailColor="#333333";bookConfig.thumbnailAlpha="70";bookConfig.BookMarkButtonVisible="Hide";bookConfig.TableOfContentButtonVisible="Show";bookConfig.isHideTabelOfContentNodes="yes";bookConfig.SearchButtonVisible="Show";bookConfig.leastSearchChar="3";bookConfig.searchKeywordFontColor="#FFB000";bookConfig.searchHightlightColor="#ffff00";bookConfig.SelectTextButtonVisible="Show";bookConfig.PrintButtonVisible="Hide";bookConfig.BackgroundSoundButtonVisible="Show";bookConfig.FlipSound="Yes";bookConfig.BackgroundSoundLoop="-1";bookConfig.AutoPlayButtonVisible="Show";bookConfig.autoPlayAutoStart="No";bookConfig.autoPlayDuration="9";bookConfig.autoPlayLoopCount="1";bookConfig.ZoomButtonVisible="Show";bookConfig.maxZoomWidth="1400";bookConfig.defaultZoomWidth="1000";bookConfig.mouseWheelFlip="Yes";bookConfig.ZoomMapVisible="Hide";bookConfig.DownloadButtonVisible="Hide";bookConfig.PhoneButtonVisible="Hide";bookConfig.AnnotationButtonVisible="Hide";bookConfig.FullscreenButtonVisible="Show";bookConfig.MagnifierButtonVisible="Hide";bookConfig.bgBeginColor="#E2E2E2";bookConfig.bgEndColor="#E2E2E2";bookConfig.bgMRotation="90";bookConfig.backGroundImgURL="files/mobile-ext/backGroundImgURL.jpg";bookConfig.backgroundPosition="stretch";bookConfig.backgroundOpacity="100";bookConfig.backgroundScene="None";bookConfig.LeftShadowWidth="90";bookConfig.LeftShadowAlpha="0.6";bookConfig.RightShadowWidth="55";bookConfig.RightShadowAlpha="0.6";bookConfig.ShowTopLeftShadow="Yes";bookConfig.HardPageEnable="No";bookConfig.hardCoverBorderWidth="8";bookConfig.borderColor="#572F0D";bookConfig.outerCoverBorder="Yes";bookConfig.cornerRound="8";bookConfig.leftMarginOnMobile="0";bookConfig.topMarginOnMobile="0";bookConfig.rightMarginOnMobile="0";bookConfig.bottomMarginOnMobile="0";bookConfig.pageBackgroundColor="#E8E8E8";bookConfig.flipshortcutbutton="Show";bookConfig.BindingType="side";bookConfig.RightToLeft="No";bookConfig.FlipDirection="0";bookConfig.flippingTime="0.6";bookConfig.retainBookCenter="Yes";bookConfig.FlipStyle="Flip";bookConfig.autoDoublePage="Yes";bookConfig.isTheBookOpen="No";bookConfig.thicknessWidthType="Thinner";bookConfig.thicknessColor="#ffffff";bookConfig.SingleModeBanFlipToLastPage="No";bookConfig.showThicknessOnMobile="No";bookConfig.isSingleBookFullWindowOnMobile="no";bookConfig.isStopMouseMenu="yes";bookConfig.restorePageVisible="No";bookConfig.topMargin="10";bookConfig.bottomMargin="10";bookConfig.leftMargin="10";bookConfig.rightMargin="10";bookConfig.hideMiniFullscreen="no";bookConfig.maxWidthToSmallMode="400";bookConfig.maxHeightToSmallMode="300";bookConfig.leftRightPnlShowOption="None";bookConfig.highDefinitionConversion="yes";bookConfig.LargeLogoPosition="top-left";bookConfig.LargeLogoTarget="Blank";bookConfig.isFixLogoSize="No";bookConfig.logoFixWidth="0";bookConfig.logoFixHeight="0";bookConfig.SupportOperatePageZoom="Yes";bookConfig.showHelpContentAtFirst="No";bookConfig.updateURLForPage="No";bookConfig.LinkDownColor="#800080";bookConfig.LinkAlpha="0.2";bookConfig.OpenWindow="Blank";bookConfig.showLinkHint="No";bookConfig.MidBgColor="#928631";bookConfig.useTheAliCloudChart ="no";bookConfig.totalPageCount=288;bookConfig.largePageWidth=900;bookConfig.largePageHeight=1278;;bookConfig.securityType="1";bookConfig.CreatedTime ="240731204703";bookConfig.bookTitle="Matematika-BS-KLS-X";bookConfig.bookmarkCR="4b93a57bf2df90cc9f49db44129f2effd0802816";bookConfig.productName="Flip PDF Professional";bookConfig.homePage="http://www.flipbuilder.com";bookConfig.searchPositionJS="mobile/javascript/text_position[1].js";bookConfig.searchTextJS="mobile/javascript/search_config.js";bookConfig.normalPath="files/mobile/";bookConfig.largePath="files/mobile/";bookConfig.thumbPath="files/thumb/";bookConfig.userListPath="files/extfiles/users.js";bookConfig.UIBaseURL='mobile/';var language = [];;function orgt(s){ return binl2hex(core_hx(str2binl(s), s.length * chrsz));};; var pageEditor = {"setting":{}, "pageAnnos":[[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.342579","y":"0.269158","width":"0.170742","height":"-0.013208"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:buku@kemdikbud.go.id"}}],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.434435","y":"0.520994","width":"0.162674","height":"-0.015833"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://www.geogebra.org"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.260995","y":"0.890344","width":"0.260370","height":"-0.015833"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://pusdatin.kemkes.go.id"}}],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.210640","y":"0.215683","width":"0.085235","height":"-0.010962"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://Geogebra.org"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.145072","y":"0.173023","width":"0.258937","height":"-0.015072"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.geogebra.org/m/"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.196925","y":"0.626616","width":"0.129707","height":"-0.010951"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://gudanglampuku.com"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.186706","y":"0.412782","width":"0.092075","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://kuningan.html"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.139563","y":"0.399800","width":"0.186358","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://krbogor.lipi.go.id/kebun-raya-"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.256120","y":"0.859004","width":"0.464879","height":"-0.009582"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://spotlight.unavco.org/how-gps-works/gps-and-tectonics/gps-and-tectonics.html"}}],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.406250","y":"0.361912","width":"0.273485","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://goo.gl/maps/hvGqjkmLSGBnADwL9"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.470333","y":"0.433244","width":"0.233581","height":"-0.015072"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.geogebra.org/"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.456620","y":"0.334161","width":"0.110216","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://waze.com"}}],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.404461","y":"0.853505","width":"0.202428","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://busiest-day-june-a8428451.html"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.207352","y":"0.840523","width":"0.647986","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.independent.co.uk/travel/news-and-advice/flights-sky-map-worldwide-air-traffic-aviation-"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.177273","y":"0.683641","width":"0.233581","height":"-0.015072"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.geogebra.org/"}}],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.441744","y":"0.888832","width":"0.170125","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://indianexpress.com/"}}],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.274347","y":"0.842135","width":"0.422897","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.viva.co.id/arsip/262958-para-penguasa-tol-trans-jawa"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.347833","y":"0.351980","width":"0.328486","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://moondoggiesmusic.com/peta-bali/#gsc.tab=0"}}],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.163731","y":"0.531703","width":"0.075247","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://pixaby.com"}}],[],[],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.261088","y":"0.873218","width":"0.085677","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://unsplash.com"}}],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.616434","y":"0.671619","width":"0.135682","height":"-0.010950"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://www.indonesia.go.id"}}],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.457726","y":"0.823967","width":"0.150539","height":"-0.012319"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://corona.jakarta.go.id"}}],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.400179","y":"0.300112","width":"0.228307","height":"-0.012319"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://samarindakota.bps.go.id"}}],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.459812","y":"0.591276","width":"0.120741","height":"-0.012306"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://ffons-needle.html"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.172597","y":"0.591289","width":"0.287432","height":"-0.012319"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.mathsisfun.com/activity/bu"}}],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.339903","width":"0.619340","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.maths.usyd.edu.au/u/MOW/vectors/vectors-7/v-7-1.html"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.256161","width":"0.624734","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://math.libretexts.org/Bookshelves/Calculus/Book%3A_Calculus_"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.195005","width":"0.512467","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.mathsisfun.com/activity/buffons-needle.html"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.156431","width":"0.425797","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://corona.jakarta.go.id/id/data-pemantauan"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.095274","width":"0.728287","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.forbes.com/sites/naomirobbins/2012/01/04/a-histogram-is-not-a-bar-"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.886326","width":"0.592025","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://pixabay.com/photos/hamburger-burger-fast-food-2201748/."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.826583","width":"0.521753","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.pexels.com/photo/green-leafed-tree-1146706/."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.766836","width":"0.390676","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/keHNwiEsJQs."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.707091","width":"0.392991","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/_1fByLYHA_0."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.647346","width":"0.393627","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.google.co.id/maps/@2.6132654"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.153412","y":"0.609472","width":"0.181857","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://PK-GIG_-_NRT.jpg."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.586887","width":"0.548744","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://commons.wikimedia.org/wiki/File:Garuda_Indonesia"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.526444","width":"0.390856","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/FUAe5yjwqXc."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.466698","width":"0.402784","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/BnzqQwerUOY."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.406239","width":"0.379828","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/j2c7yf223Mk."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.345083","width":"0.389176","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/4pc1GpZhJP0."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.283924","width":"0.383797","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/k0KRNtqcjfw."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.223465","width":"0.388978","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/PaFEcOj8Kqo."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.163007","width":"0.678873","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://indonesia.go.id/ragam/pariwisata/pariwisata/jembatan-youtefa-bukti-"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.834001","width":"0.663128","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.pexels.com/photo/blood-bags-on-white-background-4531304."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.774255","width":"0.375578","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/Zp7ebyti3MU"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.714509","width":"0.670014","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.freepik.com/free-photo/shining-sun-clear-blue-sky_945129.htm"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.654766","width":"0.371840","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/el-LuI0mVLo"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.595021","width":"0.369720","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/-VjeHVFSl38"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.535276","width":"0.384127","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://covid19.go.id/peta-sebaran-covid19."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.475531","width":"0.727841","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.freepik.com/free-vector/dos-don-ts-prevention-infographic_7745036."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.415784","width":"0.701491","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.freepik.com/free-psd/blank-screen-concept-mock-up_9156419.htm"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.356040","width":"0.386833","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/Ll9RwiWfQW8"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.296295","width":"0.667661","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.freepik.com/free-psd/brochure-concept-mock-up_8300291.htm"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.214678","width":"0.611861","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.freepik.com/free-vector/combo-meals-poster_10346331."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.154933","width":"0.609265","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.freepik.com/free-photo/glass-cola-with-ice_1179448.htm"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.142045","y":"0.095188","width":"0.387580","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://kissclipart.com/french-fries-0q2q9m/"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.264302","y":"0.886698","width":"0.376666","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/5cwvT0BSgIY"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.825541","width":"0.649956","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://commons.wikimedia.org/wiki/File:Snakes_and_Ladders_board.jpg"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.764384","width":"0.381106","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/4aB1nGtD_Sg"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.703226","width":"0.691321","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://commons.wikimedia.org/wiki/File:Monopoly_board_on_white_bg.jpg."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.619484","width":"0.678873","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://indonesia.go.id/ragam/pariwisata/pariwisata/jembatan-youtefa-bukti-"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.558326","width":"0.629210","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://pixabay.com/photos/rumah-gadang-padang-indonesia-4914211/"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.497169","width":"0.394160","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://unsplash.com/photos/HcgK4WoBwzg"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.436011","width":"0.578127","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://pixabay.com/photos/construction-surveyor-road-4216751/"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.397438","width":"0.275086","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.flightradar24.com/"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.336281","width":"0.284506","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://www.waze.com/live-map."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.275837","width":"0.393763","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://goo.gl/maps/hvGqjkmLSGBnADwL9."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.215377","width":"0.721156","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://spotlight.unavco.org/how-gps-works/gps-and-tectonics/gps-and-tectonics."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.186742","y":"0.154933","width":"0.612263","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://kebunrayadaerah.krbogor.lipi.go.id/kebun-raya-kuningan.html"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.153412","y":"0.117059","width":"0.096101","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://jogja-2.jpg."}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.113636","y":"0.095188","width":"0.712029","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://gudanglampuku.com/wp-content/uploads/2018/11/tiang-penunjuk-arah-"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.331925","y":"0.238265","width":"0.231533","height":"-0.015802"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:dicky.susanto@calvin.ac.id"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.333251","y":"0.123273","width":"0.258672","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:savitri.sihombing@gmail.com"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.329545","y":"0.123273","width":"0.140249","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:esalim@asu.edu"}}],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.301136","y":"0.123273","width":"0.289453","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:marianna.radjawane@gmail.com"}}],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.494422","y":"0.123273","width":"0.159586","height":"-0.015072"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://ff.qitepinmath.org"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.329545","y":"0.123273","width":"0.165076","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:ummy.salmah@sta"}}],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.301136","y":"0.123273","width":"0.306140","height":"-0.015801"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:ambarsariks_uin@radenfatah.ac.id"}}],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.396021","y":"0.169109","width":"0.141154","height":"-0.015072"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:.fkip@unej.ac.id"}}],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.351782","y":"0.170531","width":"0.129358","height":"-0.015041"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:fir@gmail.com"}}]]}; bookConfig.isFlipPdf=false; var pages_information =[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}];	
+	if(language&&language.length>0&&language[0]&&language[0].language){
+		bookConfig.language=language[0].language;
+	}
+	
+try{
+	for(var i=0;pageEditor!=undefined&&i<pageEditor.length;i++){
+		if(pageEditor[i].length==0){
+			continue;
+		}
+		for(var j=0;j<pageEditor[i].length;j++){
+			var anno=pageEditor[i][j];
+			if(anno==undefined)continue;
+			if(anno.overAlpha==undefined){
+				anno.overAlpha=bookConfig.LinkAlpha;
+			}
+			if(anno.outAlpha==undefined){
+				anno.outAlpha=0;
+			}
+			if(anno.downAlpha==undefined){
+				anno.downAlpha=bookConfig.LinkAlpha;
+			}
+			if(anno.overColor==undefined){
+				anno.overColor=bookConfig.LinkDownColor;
+			}
+			if(anno.downColor==undefined){
+				anno.downColor=bookConfig.LinkDownColor;
+			}
+			if(anno.outColor==undefined){
+				anno.outColor=bookConfig.LinkDownColor;
+			}
+			if(anno.annotype=='com.mobiano.flipbook.pageeditor.TAnnoLink'){
+				anno.alpha=bookConfig.LinkAlpha;
+			}
+		}
+	}
+}catch(e){
+}
+try{
+	$.browser.device = 2;
+}catch(ee){
+}
